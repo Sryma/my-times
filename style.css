@@ -80,7 +80,7 @@ a{
 .lead{
   width: 630px;
   
-  border: 5px solid orange;
+  /*border: 5px solid orange;*/
 }
 h2 {
   margin-top: 0;
@@ -89,7 +89,7 @@ h2 {
   font-weight: bold;
 }
 .articles{
-  border: 5px solid green;
+  /*border: 5px solid green;*/
   width: 630px;
    display: flex;
   flex-direction: row;
@@ -97,7 +97,7 @@ h2 {
 }
 .articles_1,.articles_2{
   width: 300px;
-  border: 2px solid blue;
+ /* border: 2px solid blue;*/
   flex-grow: 1;
   flex-direction:column; 
 }
@@ -106,13 +106,13 @@ h2 {
   background: url("image/img-story-2.png");
  
   height:300px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   }
 .image-child{
   background: url("image/img-story-3.png");
  
   height:300px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   }
 .image-content span,.image-lady span,.image-child span,.image-girl span{
 display: flex;
@@ -129,15 +129,15 @@ text-align: center;
   background-image: url("image/img-story-main.png");
   
     height:300px;
-    border:1px solid red;
+    /*border:1px solid red;*/
      text-align: left;
 }
 .find{
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 .nar{
     display: block;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin-top: 10px;
   }
 .column{
@@ -152,7 +152,7 @@ text-align: center;
   flex:1;
   display: flex;
  flex-flow: wrap column;
- border:1px solid green;
+ /*border:1px solid green;*/
 }
 
 .column.medium {
@@ -160,7 +160,7 @@ text-align: center;
   flex:1;
   display: flex;
  flex-flow: wrap column;
- border:1px solid blue;
+ /*border:1px solid blue;*/
 }
 
 .column.small {
@@ -168,7 +168,7 @@ text-align: center;
   flex:1;
   display: flex;
  flex-flow: wrap column;
- border: 1px solid blue;
+ /*border: 1px solid blue;*/
 }
 /*span.orca{
   
@@ -181,7 +181,7 @@ text-align: center;
   background: url("image/img-story-1.png");
 
   height:300px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
   
 .nar_1{
@@ -191,8 +191,19 @@ text-align: center;
   font-size: 16px;
   align-self: baseline;
 }
+h3{
+  text-align: center;
+}
+.new span{
+  display:block;
+  font-family: verdana;
+  font-size: 12px;
+  color:dimgrey;
+   padding: 11px 20px;
+  background-color: whitesmoke;
+  border-bottom:1px solid black;
 
-
+}
 /*<!--footer-->*/
 .footer{
   background-color: MediumAquamarine;
