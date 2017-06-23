@@ -1,8 +1,10 @@
-body{
-  width: 100%;
-  margin: 0 auto;
-  text-align: justify;
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
 }
+ 
 .header{
   
   display: flex;
@@ -70,47 +72,66 @@ a{
   
 }*/
 .content{
-  display:flex;
-  flex-direction: row;
-  padding-top:100px;
-  border: 3px solid green;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 .lead{
   width: 630px;
   
   border: 5px solid orange;
 }
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
 .articles{
   border: 5px solid green;
   width: 630px;
    display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 .articles_1,.articles_2{
   width: 300px;
   border: 2px solid blue;
   flex-grow: 1;
-  flex-direction:row; 
+  flex-direction:column; 
 }
-.image_1{
-  background-image: url("image/img-story-main.png");
-  
-    height:300px;
-    border:1px solid red;
-}
-.image_2{
+
+ .image-lady{
   background: url("image/img-story-2.png");
  
   height:300px;
   border: 1px solid red;
   }
-.image_21{
+.image-child{
   background: url("image/img-story-3.png");
  
   height:300px;
   border: 1px solid red;
   }
+.image-content span,.image-lady span,.image-child span,.image-girl span{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 300px;
+margin-top: 15px;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+.image-content{
+  background-image: url("image/img-story-main.png");
+  
+    height:300px;
+    border:1px solid red;
+     text-align: left;
+}
 .find{
   border: 1px solid green;
 }
@@ -149,14 +170,14 @@ a{
  flex-flow: wrap column;
  border: 1px solid blue;
 }
-
-span .orca{
+/*span.orca{
   
   color: white;
   font-size: 40px;
   border: 1px solid green;
-}
-.image_3{
+}*/
+
+.image-girl{
   background: url("image/img-story-1.png");
 
   height:300px;
@@ -191,18 +212,20 @@ span .orca{
   align-items: center;
   justify-content: center;
 }
-.footer.end{
-  display: inline-block;
-  font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  text-transform: uppercase;
-}
+
  ul li{
   display: inline-block;
 }
 .times {
   display:flex;
   align-items:center;
+}
+.footer .end {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
